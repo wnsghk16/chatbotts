@@ -2,7 +2,7 @@ export default function operator() {
     console.log("--1. 산술연산자--")
     console.log(`10 ** 3 = ${10**3}`)
     console.log("--2. 부정연산자--")
-    console.log(`!"hello" = ${!"hi"}, !!"hello" = ${!!"hi"}`)
+    console.log(`!"hello" = ${!"hello"}, !!"hello" = ${!!"hello"}`)
     console.log(`!0 = ${!0}, !!0 = ${!!0}, !1 = ${!1}, !2=${!2}`)
     console.log(`!true = ${!true}, !!true = ${!!true}`)
     destructure()

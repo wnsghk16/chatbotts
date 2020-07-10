@@ -1,4 +1,4 @@
-import hi,{goodbye,birthday,add} from "./hi";
+import hello,{goodbye,birthday,add} from "./hello";
 import jsTypes,{tsTypes,symbolType,tupleType} from "./jsTypes"
 import operator, {spread} from "./operator";
 import loop from "./loop";
@@ -9,7 +9,7 @@ let name, profile, message = ""
 switch (menu) {
     case 0:
         name = "홍길동"
-        message = hi(name)
+        message = hello(name)
         console.log(message)
         break
     case 1:

@@ -1,9 +1,9 @@
-import React from "react";
+import React, {Component} from "react";
 import ChatBot from 'react-simple-chatbot';
 interface State {
     name: string
 }
-class MyChatBot extends React.Component<State>{
+class MyChatBot extends Component<State>{
     state: State = {
         name: ''
     }
@@ -12,6 +12,7 @@ class MyChatBot extends React.Component<State>{
             <div>
                 <h1>챗봇</h1>
                 <ChatBot
+                    // steps 챗봇의 시나리오를 작성한다.
                     steps={[
                         {
                             id: '1',
@@ -37,8 +38,8 @@ class MyChatBot extends React.Component<State>{
                             end: true,
                         },
                     ]}
-                />
 
+                />
             </div>
         );
     }

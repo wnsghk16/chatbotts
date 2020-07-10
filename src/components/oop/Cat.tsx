@@ -1,12 +1,12 @@
 import React,{Component} from "react";
 
-export default class Kitty extends Component{
+export default class Cat extends Component{
     public state = {
         date: new Date(),
         text: 'I hope you enjoy learning React!',
         author: {
-            name: 'Hello Kitty',
-            avatarUrl: 'https://lh3.googleusercontent.com/proxy/x2Ok_zFhRCbw3cJngff1kEwSnXYluC-6MDY71AssQXnE7BebUKCYUwEdkUGi3T9GVn9fMcMROwIQ_fFCjsgbr-GujdhZS7_OuD92kxJddXuWyjNojD7LQnhet7hTySnvDTX_Ul1T'
+            name: 'HelloName Cat',
+            avatarUrl: 'https://lh3.googleusercontent.com/proxy/kqq_RtHLx9iUztuSfQ7fk0xg_yQ4gtrkQLRVlnUdsO68hLJrzgBRcDcvAuhylnn-lGcOUjRX8Nh5xGXyWReUC_juwx7wb51BN86PK7y7UswpLGzi-p6XTcmojgSDSdQ'
         },
     }
     public formatDate=(date)=>{

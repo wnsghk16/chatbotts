@@ -1,4 +1,4 @@
-export default function hi(name:string):string{
+export default function hello(name:string):string{
     return `Hello ${name}`
 }
 export function goodbye(name:string):string{

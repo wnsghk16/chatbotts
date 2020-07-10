@@ -66,8 +66,8 @@ export function tsTypes():void {
 }
 
 export function symbolType():void {
-    const hello = Symbol("hi")
-    const hello2 = Symbol("hi")
+    const hello = Symbol("hello")
+    const hello2 = Symbol("hello")
     // @ts-ignore
     console.log(hello === hello2)
     console.log(hello,hello2)

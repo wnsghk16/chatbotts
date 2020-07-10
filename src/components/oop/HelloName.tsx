@@ -3,7 +3,7 @@ import React, {Component} from "react";
 interface HelloProps {
     name:string
 }
-class Hello extends Component<HelloProps>{
+class HelloName extends Component<HelloProps>{
     public state = {name:""}
     props:any
     constructor(props:HelloProps) {
@@ -23,4 +23,4 @@ class Hello extends Component<HelloProps>{
     }
 }
 
-export default Hello
+export default HelloName
