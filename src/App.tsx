@@ -5,6 +5,7 @@ import {Cat,Clock,Counter,HelloName,MyChatBot} from "./components";
 import './App.css'
 import {Provider} from 'react-redux';
 import {ConnectedRouter} from 'connected-react-router'
+import AdvancedCounter from "./components/fp/AdvancedCounter";
 
 class App extends React.Component<any, any>{
     public render() {
@@ -21,7 +22,7 @@ class App extends React.Component<any, any>{
                 <Route exact path='/cat' component={Cat}/>
                 <Route exact path='/clock' component={Clock}/>
                 <Route exact path='/counter'>
-                    <Counter startNumber={0}/>
+                    <AdvancedCounter/>
                 </Route>
                 <Route exact path='/hello'>
                     <HelloName name={"홍길동"}/>
